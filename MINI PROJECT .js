@@ -13,7 +13,7 @@ let menu = [
 
 function findMenuItem(list,ItemName) {
   for ( let i = 0; i <list.length;i++);
-    if ( list.name===itemName)
+    if ( list.name[i]===itemName)
 { 
         return list [i] ; 
     }
@@ -25,6 +25,6 @@ function findMenuItem(list,ItemName) {
     { name: "Cappuccino", price: 18 },
     { name: "Croissant", price: 10 }
 ]
-     console.log(findMenuitem(menu,(Cappuccino))) 
+     console.log(findMenuitem(menu,(Cappuccino)) 
     
     
