@@ -27,4 +27,18 @@ function findMenuItem(list,ItemName) {
 ]
      console.log(findMenuitem(menu,(Cappuccino)) 
     
-    
+   
+
+     let menu = [
+  { name: "Espresso", price: 12, category: "Coffee" },
+  { name: "Cappuccino", price: 18, category: "Coffee" },
+  { name: "Croissant", price: 10, category: "Pastry" }
+]
+menu.push {
+  name: "Muffin",
+  price: 14,
+  category: "Pastry"
+}
+
+console.log(menu)
+

@@ -42,18 +42,7 @@ Expected output:
 
 4
 { name: 'Muffin', price: 14, category: 'Pastry' }
-Step 4 — Update a Menu Item's Price
-Write a function updatePrice(list, itemName, newPrice) that finds the item by name (reuse findMenuItem) and updates its price.
-
-Return true if the update happened, false if the item wasn't found.
-
-Test it:
-
-console.log(updatePrice(menu, "Espresso", 13));
-console.log(findMenuItem(menu, "Espresso"));
-Expected output:
-
-true
+ 
 { name: 'Espresso', price: 13, category: 'Coffee' }
 Step 5 — Build Today's Orders
 Create an array called orders with five order objects, each having customer, item, quantity, and status:
